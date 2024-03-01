@@ -32,3 +32,27 @@ const myFunction = function(){
 }
 
 console.log(typeof myObj);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack Memory(Primitive), Heap Memory(Non-Primitive)
+
+let myYotubeName = "XYZ"
+
+let anotherName = myYotubeName
+anotherName = "ABC"
+
+console.log(myYotubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
