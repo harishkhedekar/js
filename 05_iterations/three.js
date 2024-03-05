@@ -17,7 +17,7 @@ const arr = [1, 2, 3, 4, 5]
 //     console.log(i);
 // }
 
-// Maps -> unique values and not repetative 
+// Maps -> unique values and not repetative
 
 const map = new Map()
 map.set('IN', "India")
